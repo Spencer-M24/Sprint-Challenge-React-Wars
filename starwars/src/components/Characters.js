@@ -2,10 +2,10 @@ import React from 'react';
 import Character from "./Character";
 
 
-const Characters = () => {
-    return
+const Characters = (props) => {
+    return (
     <div className="characters">{props.characters.map( character =>
-        <Character character {Character} />)}
+        <Character character= {character} />)}
     
     </div> 
 
