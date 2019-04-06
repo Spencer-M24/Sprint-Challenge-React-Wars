@@ -1,0 +1,22 @@
+.character {
+    border: 1px solid color blue;
+    background-color: yellow;
+    padding: 2%;
+    
+    /* box-sizing: border-box */
+    
+}
+
+.character {
+    display: grid;
+    grid-auto-flow: column;
+    
+     /* max-width: 900px;
+    grid-template-columns: 1fr 2fr 3fr; */
+    
+}
+
+h1 {
+    font-size: 25px;
+    background-color: lime;    
+}
